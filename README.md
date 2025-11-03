@@ -1,0 +1,2 @@
+- Segundo intento de página web, con la intención de mostrar mis avances en HTML y CSS para el mes de Septiembre de 2025. 
+- Optimicé la escritura en HTML y el estilo en CSS, junto con una mejora en el diseño y uso de imágenes.
