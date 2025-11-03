@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital@1&display=swap');
+
+
+
+
+body{
+    background-color: #FBF5F3;
+    font-family: 'Inria Sans';
+    min-width: 1200px;
+    margin: auto;
+}
+
+header{
+    height: 91px;
+    background-color: #840B0B;
+    color: white;
+    font-family: 'Inria Sans';
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+        #icon img{
+            width: 40px;
+            height: 40px;
+            display: flex;
+            margin: 15px;
+            }
+
+    header nav{
+        color: white;
+        font-family: 'Inria Sans';
+        font-size: 18px;
+        text-decoration: none;
+        display: flex;
+        align-items: end;
+        justify-items: space-evenly;
+        }
+
+        header nav a{
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+             margin: 0px 15px;
+             display: flex;
+             align-items: end;
+             justify-content: end;
+            }
+
+        header nav a:hover{
+            color: #F2F2F2;
+            background-color: #5c070795;
+            border-radius: 5px;
+            transition: 0.9s;
+            }
+
+
+
+#hero-banner{
+        background-image: url(../imgs2/Header_Dante.jpg);
+        width: 911px;
+        height: 252px;
+        margin: 40px 160px 0px 180px;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        border-radius: 10px;
+    }
+
+    #hero-banner h1{
+        font-family: 'Inria Sans';
+        font-style: normal;
+        color: #000000;
+        background-color: #5651512d;
+        font-size: 30px;
+        margin: 0px 0px 20px 20px;
+        text-align: justify;
+    }
+
+h1{
+        font-family: 'Inria Sans';
+        color: #000000;
+        font-size: 30px;
+    }
+
+
+
+main nav{
+    display: flex;
+    justify-content: center;
+    text-shadow: 0px 0px 2px #00000041;
+    margin: 70px auto
+}
+main nav a{
+            font-family: 'Italiana';
+            font-size: 20px;
+            color: #880A0A;
+            text-decoration: none;
+            padding: 5px;
+            justify-content: center;
+            margin: 5px 30px 5px 30px;
+            border: 3px #880A0A;
+            }
+
+        main nav a:hover{
+            color: #F2F2F2;
+            background-color: #5c0707ed;
+            border-radius: 5px;
+            transition: 0.9s;
+            }
+ 
+hr{
+    width: 446px;
+ }
+
+#Summary{
+    margin: auto;
+    background-color: #ffffff;
+    width: 994px;
+    height: 328px;
+    display: flex;
+    border-radius: 15px;
+    margin-bottom: 80px;
+    }
+
+    #Summary p{
+        margin: auto 25px auto 15px;
+        text-align: justify;
+    }
+        #Summary p a{
+            text-decoration: none;
+        }
+
+
+    #Summary img{
+        width: 328px;
+        height: 210px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 58px 20px;
+    }
+
+    #Summary article h2{
+        display: flex;
+        justify-content: center;
+    }
+
+
+#Author{
+    margin: auto;
+    background-color: #ffffff;
+    width: 994px;
+    height: 328px;
+    display: flex;
+    border-radius: 15px;
+    margin-bottom: 80px;
+    margin-top: 80px
+    }
+
+    #Author p{
+        margin: auto 15px auto 25px;
+        text-align: justify;
+    }
+
+
+    #Author img{
+        width: 328px;
+        height: 210px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 58px 20px;
+        border-radius: 15px;
+    }
+
+    #Author article h2{
+        display: flex;
+        justify-content: center;
+    }
+
+#CulturalImpact{
+    margin: auto;
+    background-color: #ffffff;
+    width: 994px;
+    height: 328px;
+    display: flex;
+    border-radius: 15px;
+    margin-bottom: 80px;
+    margin-top: 80px
+    }
+
+    #Culturalimpact p{
+        margin: auto 25px auto 15px;
+        text-align: justify;
+    }
+
+
+    #CulturalImpact img{
+        width: 328px;
+        height: 210px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 58px 20px;
+        border-radius: 15px;
+    }
+
+    #CulturalImpact article h2{
+        display: flex;
+        justify-content: center;
+    }
+    
+
+
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+    h2 :hover{
+            color: #F2F2F2;
+            background-color: #564a4a29;
+            border-radius: 5px;
+            transition: 0.9s;
+            }
+
+
+#Sculptures{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+}
+
+#Sculptures img{
+    height: 300px;
+    width: auto;
+    margin: auto 30px;
+    border-radius: 5px;
+}
+
+#Sculptures p{
+    display: none;
+}
+
+
+#Contact{
+    background-image: url("../imgs2/contacto.png");
+    position: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+    height: 200px;
+    width: 800px;
+    color: white;
+}
+
+    
+
+
+footer{
+    background-color: #880A0A;
+    color: white;
+    font-family: 'Inria Sans';
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 20px;
+    }
+
+        footer nav a{
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            justify-content: space-between;
+            margin-left: 15px;
+            margin-right: 15px;
+            align-items: end;
+            }
+
+        footer nav a:hover{
+            color: #F2F2F2;
+            background-color: #5c070795;
+            border-radius: 5px;
+            transition: 0.9s;
+            }
+
+
+
